@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Heart, Users, Sparkles, Brain, Target, Compass, Star, Play, Mail, Gift, Film, BookOpen } from 'lucide-react';
+import { ArrowRight, Heart, Users, Sparkles, Brain, Target, Compass, Star, Play, Mail, Gift, Film, BookOpen, Video, Headphones } from 'lucide-react';
 
 function App() {
   return (
@@ -24,11 +24,11 @@ function App() {
             Entdecke den wahren Sinn des Glücks und nutze die Kraft Deiner Sehnsucht für ein erfülltes Leben
           </p>
           <a href="https://www.rippso.com/go/behappyland" target="_blank">
-          <button className="bg-gradient-to-r from-rose-500 to-purple-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 transition-transform flex items-center gap-2 mx-auto">
-            Zum Kick-off Webinar anmelden <ArrowRight className="w-5 h-5" />
-          </button>
+            <button className="bg-gradient-to-r from-rose-500 to-purple-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 transition-transform flex items-center gap-2 mx-auto">
+              Zum Kick-off Webinar anmelden <ArrowRight className="w-5 h-5" />
+            </button>
           </a>
-              <b>06. Februar 2025 - 19:00h via Zoom</b>
+          <b>06. Februar 2025 - 19:00h via Zoom</b>
         </div>
       </section>
 
@@ -97,12 +97,12 @@ function App() {
           </div>
           <div className="text-center">
             <a href="https://www.rippso.com/go/behappyland" target="_blank">
-            <button className="bg-gradient-to-r from-rose-500 to-purple-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 transition-transform flex items-center gap-2 mx-auto group">
-              Hier zum Kick-off Webinar anmelden 
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+              <button className="bg-gradient-to-r from-rose-500 to-purple-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 transition-transform flex items-center gap-2 mx-auto group">
+                Hier zum Kick-off Webinar anmelden 
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </button>
             </a>
-                <div className="text-white text-bold"><b>06. Februar 2025 - 19:00h via Zoom</b></div>
+            <div className="text-white text-bold"><b>06. Februar 2025 - 19:00h via Zoom</b></div>
           </div>
         </div>
       </section>
@@ -172,6 +172,51 @@ function App() {
         </div>
       </section>
 
+      {/* People Section */}
+      <section className="py-20 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              Die Personen
+              <span className="block text-2xl md:text-3xl text-rose-400 mt-2">
+                Die BeHappy Land Community
+              </span>
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-4 gap-8 mb-16">
+            <div className="bg-gradient-to-br from-rose-900/50 to-purple-900/50 p-8 rounded-2xl backdrop-blur-sm">
+              <Video className="w-12 h-12 text-rose-400 mx-auto mb-4" />
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">Werner</h3>
+              <p className="text-gray-300 text-center">
+                Filmemacher und Visionär
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-rose-900/50 to-purple-900/50 p-8 rounded-2xl backdrop-blur-sm">
+              <Users className="w-12 h-12 text-rose-400 mx-auto mb-4" />
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">Wolfram</h3>
+              <p className="text-gray-300 text-center">
+                Coaching & Communitymanager
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-rose-900/50 to-purple-900/50 p-8 rounded-2xl backdrop-blur-sm">
+              <Heart className="w-12 h-12 text-rose-400 mx-auto mb-4" />
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">Tabea</h3>
+              <p className="text-gray-300 text-center">
+                Coaching & Support
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-rose-900/50 to-purple-900/50 p-8 rounded-2xl backdrop-blur-sm">
+              <Headphones className="w-12 h-12 text-rose-400 mx-auto mb-4" />
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">Matthias</h3>
+              <p className="text-gray-300 text-center">
+                Coaching & Tech Support
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-t from-black/80 to-transparent">
         <div className="max-w-4xl mx-auto text-center">
@@ -183,13 +228,13 @@ function App() {
             <p className="text-xl text-gray-300 mb-8">
               Entdecke in unserem kostenlosen Webinar, wie Du die Kraft Deiner Sehnsucht nach Glück 
               für ein erfülltes Leben nutzen kannst.
-              <br></br><br></br>
+              <br /><br />
               <b>06. Februar 2025 - 19:00h via Zoom</b>
             </p>
             <a href="https://www.rippso.com/go/behappyland" target="_blank">
-            <button className="bg-gradient-to-r from-rose-500 to-purple-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 transition-transform flex items-center gap-2 mx-auto">
-              Jetzt kostenlos zum Webinar anmelden <ArrowRight className="w-5 h-5" />
-            </button>
+              <button className="bg-gradient-to-r from-rose-500 to-purple-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 transition-transform flex items-center gap-2 mx-auto">
+                Jetzt kostenlos zum Webinar anmelden <ArrowRight className="w-5 h-5" />
+              </button>
             </a>
           </div>
         </div>
