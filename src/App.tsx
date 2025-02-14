@@ -28,7 +28,7 @@ function App() {
               Zum Kick-off Webinar anmelden <ArrowRight className="w-5 h-5" />
             </button>
           </a>
-          <b>06. Februar 2025 - 19:00h via Zoom</b>
+          <b>20. Februar 2025 - 19:00h via Zoom</b>
         </div>
       </section>
 
