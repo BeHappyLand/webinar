@@ -102,7 +102,7 @@ function App() {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
             </a>
-            <div className="text-white text-bold"><b>06. Februar 2025 - 19:00h via Zoom</b></div>
+            <div className="text-white text-bold"><b>20. Februar 2025 - 19:00h via Zoom</b></div>
           </div>
         </div>
       </section>
@@ -229,7 +229,7 @@ function App() {
               Entdecke in unserem kostenlosen Webinar, wie Du die Kraft Deiner Sehnsucht nach Glück 
               für ein erfülltes Leben nutzen kannst.
               <br /><br />
-              <b>06. Februar 2025 - 19:00h via Zoom</b>
+              <b>20. Februar 2025 - 19:00h via Zoom</b>
             </p>
             <a href="https://www.rippso.com/go/behappyland" target="_blank">
               <button className="bg-gradient-to-r from-rose-500 to-purple-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:scale-105 transition-transform flex items-center gap-2 mx-auto">
